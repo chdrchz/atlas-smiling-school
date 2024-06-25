@@ -1,0 +1,19 @@
+/* ============================ */
+/*       DESKTOP STYLING        */
+/* ============================ */
+
+/* VARIABLES */
+:root {
+
+    /* colors */
+    --color-white: #FFFFFF;
+    --color-accent: #C271FF;
+    --color-black: #071629;
+
+    /* fonts */
+    --font-main: 'Source Sans Pro', sans-serif;
+}
+
+/* BASIC STYLING */
+
+/* button */
