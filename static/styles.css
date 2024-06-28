@@ -16,6 +16,7 @@
     --font-size-120px: 7.5rem;
 
     /* FONT WEIGHTS */
+    --font-weight-bolder: 900;
     --font-weight-bold: 700;
     --font-weight-med: 300;
     --font-weight-light: 100;
@@ -28,6 +29,7 @@ header {
     background-size: cover;
     background-position: center;
     height: auto;
+    color: var(--color-white);
 }
 
 /* HEADER STYLING */
@@ -40,4 +42,40 @@ header li {
 .banner h1 {
     font-size: var(--font-size-120px);
     font-weight: var(--font-weight-bold);
+    padding-top: 8rem;
+}
+
+.smiles-grin-laugh {
+    width: 50px;
+    font-weight: var(--font-weight-bold);
+}
+
+.learn-from-pros {
+    padding-top: 10rem;
+    font-weight: var(--font-weight-light);
+}
+
+span {
+    color: var(--color-accent);
+    font-weight: var(--font-weight-bold);
+}
+
+.pros {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.pros h3 {
+    font-size: var(--font-size-18px);
+}
+
+.pros p {
+    font-size: var(--font-size-14px);
+    font-weight: var(--font-weight-light);
+    margin: 0;
+}
+
+.pros img {
+    height: 150px;
+    width: 150px;
 }
