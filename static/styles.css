@@ -75,7 +75,17 @@ span {
     margin: 0;
 }
 
-.pros img {
+.pros .red-shirt {
     height: 150px;
     width: 150px;
+}
+
+.quote {
+    background-color: var(--color-accent);
+    padding: 4rem;
+}
+
+.arrow {
+    height: 62px;
+    width: 29px;
 }
