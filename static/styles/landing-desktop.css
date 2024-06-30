@@ -119,6 +119,10 @@ blockquote {
     max-width: 730px;
 }
 
+.quote-text {
+    text-align: left;
+}
+
 /* VIDEOS STYLING */
 .video-description {
     font-size: var(--font-size-14px);

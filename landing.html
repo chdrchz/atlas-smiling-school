@@ -90,20 +90,14 @@
 
         <!-- QUOTE SECTION -->
         <section class="quote container-fluid">
-            <div class="quote-container d-flex flex-columnrow justify-content-center align-items-center">
-                <div class="mx-3">
-                    <img class="arrow" src="static/images/arrow_white_left.png" alt="Left White Arrow">
-                </div>
-                <div class="mx-3">
+            <div class="quote-container row justify-content-center align-items-center text-center">
+                <div class="col-12 col-md-auto my-2">
                     <img class="red-shirt" src="static/images/red-shirt-smile.png" alt="Red Shirt Smile">
                 </div>
-                <div class="mx-3 flex-column">
-                    <blockquote class="text-wrap mb-4">« These tutorials are concise and go straight to the point. I can't think of a better place to learn smiling! And it's so fun! »</blockquote>
+                <div class="quote-text col-12 col-md-auto my-2 flex-column">
+                    <blockquote class="text-wrap text-start mb-4">« These tutorials are concise and go straight to the point. I can't think of a better place to learn smiling! And it's so fun! »</blockquote>
                     <p class="person-name mb-0">Person name</p>
                     <p class="font-italic">weather presenter</p>
-                </div>
-                <div class="mx-3">
-                    <img class="arrow" src="static/images/arrow_white_right.png" alt="Right White Arrow">
                 </div>
             </div>
         </section>
@@ -218,45 +212,47 @@
         </section>
 
         <!-- MEMBERSHIP SECTION -->
-        <section class="membership container-fluid d-flex flex-column justify-content-center align-items-center">
-            <div>
-                <h1 class="membership-heading"><span>Free</span> membership</h1>
+        <section class="membership container-fluid">
+            <h1 class="text-center py-5"><span>Free </span> membership
+            </h1>
+            <div class="container-lg">
+                <div class="container-lg">
+                    <div class="row">
+
+                        <!-- membership 1 -->
+                        <div class="col-12 col-md-6 col-lg-3 text-center p-4">
+                            <img src="static/images/purple-smile.png" height="35px" width="45px" alt="">
+                            <h1 class="lead font-weight-bold py-3">Lorem ipsum</h1>
+                            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                        </div>
+
+                        <!-- membership 2 -->
+                        <div class="col-12 col-md-6 col-lg-3 text-center p-4">
+                            <img src="static/images/purple-smile.png" height="35px" width="45px" alt="">
+                            <h1 class="lead font-weight-bold py-3">Lorem ipsum</h1>
+                            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                        </div>
+
+                        <!-- membership 3 -->
+                        <div class="col-12 col-md-6 col-lg-3 text-center p-4">
+                            <img src="static/images/purple-smile.png" height="35px" width="45px" alt="">
+                            <h1 class="lead font-weight-bold py-3">Lorem ipsum</h1>
+                            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                        </div>
+
+                        <!-- membership 4 -->
+                        <div class="col-12 col-md-6 col-lg-3 text-center p-4">
+                            <img src="static/images/purple-smile.png" height="35px" width="45px" alt="">
+                            <h1 class="lead font-weight-bold py-3">Lorem ipsum</h1>
+                            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center pb-5">
+                    <button type="button" class="btn btn-custom rounded-pill text-nowrap" style="background-color: #C271FF; color: #FFFFFF; height: 44px; width: 162px; font-size: 0.875rem; box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);">REGISTER FOR FREE</button>
+                </div>
             </div>
-                    
-            <!-- memberships -->
-            <div class="memberships d-flex flex-row justify-content-around mx-auto">
-
-                <!-- membership 1 -->
-                <div class="individual-membership d-flex flex-column justify-content-center align-items-center">
-                    <img src="static/images/purple-smile.png" alt="logo">
-                    <h2 class="indvidual-membership-heading mt-4">Lorem ipsum</h2>
-                    <p class="membership-description text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!-- membership 2 -->
-                <div class="individual-membership d-flex flex-column justify-content-center align-items-center">
-                    <img src="static/images/purple-smile.png" alt="logo">
-                    <h2 class="indvidual-membership-heading mt-4">Lorem ipsum</h2>
-                    <p class="membership-description text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!-- membership 3 -->
-                <div class="individual-membership d-flex flex-column justify-content-center align-items-center">
-                    <img src="static/images/purple-smile.png" alt="logo">
-                    <h2 class="indvidual-membership-heading mt-4">Lorem ipsum</h2>
-                    <p class="membership-description text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!-- membership 4 -->
-                <div class="individual-membership d-flex flex-column justify-content-center align-items-center">
-                    <img src="static/images/purple-smile.png" alt="logo">
-                    <h2 class="indvidual-membership-heading mt-4">Lorem ipsum</h2>
-                    <p class="membership-description text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <button type="button" class="btn btn-custom rounded-pill text-nowrap" style="background-color: #C271FF; color: #FFFFFF; height: 44px; width: 162px; font-size: 0.875rem; box-shadow: 8px 8px 8px rgba(0.2, 0.2, 0.2, 0.2);">REGISTER FOR FREE</button>
         </section>
-
         <!-- LATEST VIDEOS SECTION -->
         <section class="videos container-fluid d-flex flex-column justify-content-center align-items-center">
             <h1 class="video-heading text-center"><span>Latest</span> videos</h1>
@@ -369,15 +365,15 @@
     <!-- FOOTER SECTION -->
     <footer class="footer container-fluid d-flex flex-column justify-content-center">
         <div>
-            <div class="footer-socials-logo d-flex flex-row justify-content-around align-items-center">
-                <img src="static/images/logo.png" alt="logo">
-                <div class="footer-links">
-                    <img src="static/images/Facebook.png" alt="facebook">
-                    <img src="static/images/Twitter.png" alt="twitter">
-                    <img src="static/images/Instagram.png" alt="instagram">
+            <div class="footer-socials-logo d-flex flex-column flex-md-row justify-content-around align-items-center">
+                <img src="static/images/logo.png" alt="logo" class="mb-2 mb-md-0">
+                <div class="footer-links d-flex justify-content-center">
+                    <img src="static/images/Facebook.png" alt="facebook" class="mx-2">
+                    <img src="static/images/Twitter.png" alt="twitter" class="mx-2">
+                    <img src="static/images/Instagram.png" alt="instagram" class="mx-2">
                 </div>
             </div>
-            <p class="copyright text-center">©smileschool 2020</p>
+            <p class="copyright text-center mt-3">©smileschool 2020</p>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
