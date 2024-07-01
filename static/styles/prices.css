@@ -23,6 +23,10 @@
     --font-weight-light: 100;
 }
 
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* BACKGROUND IMG STYLING */
 header {
     background-image: url(../images/background_2.jpg);

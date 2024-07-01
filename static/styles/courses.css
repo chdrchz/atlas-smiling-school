@@ -1,0 +1,53 @@
+/* VARIABLES */
+
+:root {
+    /* COLORS */
+    --color-white: #FFFFFF;
+    --color-accent: #C271FF;
+    --color-black: #071629;
+
+    /* FONT SIZES */
+    --font-size-12px: 0.75rem;
+    --font-size-14px: 0.875rem;
+    --font-size-16px: 1rem;
+    --font-size-18px: 1.125rem;
+    --font-size-22px: 1.375rem;
+    --font-size-32px: 2rem;
+    --font-size-60px: 3.75rem;
+    --font-size-120px: 7.5rem;
+
+    /* FONT WEIGHTS */
+    --font-weight-bolder: 900;
+    --font-weight-bold: 700;
+    --font-weight-med: 300;
+    --font-weight-light: 100;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* BACKGROUND IMG STYLING */
+header {
+    background-image: url(../images/background_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    color: var(--color-white);
+}
+
+.banner-heading {
+    font-family: ;
+}
+
+/* HEADER STYLING */
+header li {
+    font-size: var(--font-size-12px);
+    font-weight: var(--font-weight-bold);
+}
+
+.logo {
+    height: 30px;
+    width: 169px;
+}
