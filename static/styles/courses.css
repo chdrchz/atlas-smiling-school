@@ -27,6 +27,11 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+span {
+    color: var(--color-accent);
+    font-weight: var(--font-weight-bold);
+}
+
 /* BACKGROUND IMG STYLING */
 header {
     background-image: url(../images/background_3.jpg);
@@ -38,7 +43,8 @@ header {
 }
 
 .banner-heading {
-    font-family: ;
+    font-family: 'Coiny', sans-serif;
+    font-size: ;
 }
 
 /* HEADER STYLING */
