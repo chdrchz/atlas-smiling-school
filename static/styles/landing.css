@@ -25,6 +25,10 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.hoverable-button:hover {
+    opacity: 0.9;
+}
+
 /* BACKGROUND IMG STYLING */
 header {
     background-image: url(../images/background.png);
