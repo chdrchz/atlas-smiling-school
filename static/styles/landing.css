@@ -36,14 +36,19 @@ header {
 }
 
 /* HEADER STYLING */
-header li {
-    font-size: var(--font-size-12px);
-    font-weight: var(--font-weight-bold);
-}
-
 .logo {
     height: 30px;
     width: 169px;
+}
+
+.hoverable:hover {
+    color: var(--color-accent);
+}
+
+.hoverable {
+    font-size: var(--font-size-12px);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
 }
 
 /* HERO STYLING */
